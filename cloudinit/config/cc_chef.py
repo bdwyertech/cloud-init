@@ -133,6 +133,7 @@ CHEF_RB_TPL_KEYS.extend([
     'node_name',
     'environment',
     'validation_name',
+    'rubygems_url',
 ])
 CHEF_RB_TPL_KEYS = frozenset(CHEF_RB_TPL_KEYS)
 CHEF_RB_PATH = '/etc/chef/client.rb'
